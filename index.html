@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <title>Store</title>
+  </head>
+  <body>
+    
+    <header>
+      <div class="logo">Store</div>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Produtos</li>
+          <li>Contato</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="tech-circle">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+      <div class="list">
+        <div class="item active">
+          <div class="product-img">
+            <img src="./img/apple-watch.png" alt="Apple Watch" />
+          </div>
+          <div class="content">
+            <p class="product-tag">Novo Lançamento</p>
+            <p class="product-Name">Apple Watch Series 10</p>
+            <p class="product-description">
+              O smartWatch mais avançado do mercado. monitoramento completo de
+              saude ,GPS integrado,tela AMOLED de alta rsolução e bateria de
+              longa duração. Perfeito para acompanhar seu estilo de vida ativo.
+            </p>
+            <button class="btn">Saiba Mais</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="product-img">
+            <img src="./img/air-pods.png" alt="Air Pods" />
+          </div>
+          <div class="content">
+            <p class="product-tag">Som Premium</p>
+            <p class="product-Name">Air Pods Max</p>
+            <p class="product-description">
+              Os AirPods Max oferecem áudio de alta-fidelidade com riqueza de
+              detalhes para uma experiência sem igual. Cada peça do driver
+              exclusivo contribui para produzir sons com o mínimo de distorção
+              em toda a faixa audível. 
+              <button class="btn">Saiba Mais</button>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="product-img">
+            <img src="./img/vision-pro.png" alt="Vision Pro" />
+          </div>
+          <div class="content">
+            <p class="product-tag">Alta Performace</p>
+            <p class="product-Name">Vision Pro</p>
+            <p class="product-description">
+              O Apple Vision Pro conta com toda a potência do visionOS, um
+              revolucionário sistema operacional com uma interface espacial
+              intuitiva e um sistema de entrada mágico que permite navegar pelo
+              conteúdo usando os olhos, as mãos e a voz.
+            </p>
+            <button class="btn">Saiba Mais</button>
+          </div>
+        </div>
+      </div>
+      <div class="arrows">
+        <button class="arrow-btn" id="prev">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-arrow-left"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"
+            />
+
+            />
+          </svg>
+        </button>
+
+        <button class="arrow-btn" id="next">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-arrow-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div class="indicators">
+        <div class="numbers">01</div>
+        <div class="dots">
+          <div class="dot active"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
